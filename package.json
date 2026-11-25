@@ -1,0 +1,33 @@
+{
+  "name": "ai-juejin-toutiao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 掘金头条 · 技术博客聚合平台前端（Vue 3 + Vite + TypeScript）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.9",
+    "dompurify": "^3.2.3",
+    "element-plus": "^2.9.3",
+    "marked": "^15.0.6",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.83.4",
+    "typescript": "~5.7.2",
+    "unplugin-auto-import": "latest",
+    "unplugin-vue-components": "latest",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  }
+}

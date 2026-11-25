@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+.tmp
+.pnpm-store
+keys
+*.local
+# 种子数据不入库（含全量文章与用户口令 hash）
+blog_seed_data.sql
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
+src/types/auto-imports.d.ts
+src/types/components.d.ts
